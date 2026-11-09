@@ -5,6 +5,8 @@ export default function Counter(){
 
   function increaseCount(){
     setCount(prev => prev+1)
+    setCount(prev => prev+1)
+    setCount(prev => prev+1)
   }
   return (
     <>
