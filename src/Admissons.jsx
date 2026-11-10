@@ -20,7 +20,6 @@ export default function StudentProfile(){
     <h3>Registration: {isRegistered ? "Registered" : "Not Registered"}</h3>
     <button onClick={() => {setIsregistered(prev => !prev)}}>Change Registration Status</button>
 
-
     </>
   )
 }
