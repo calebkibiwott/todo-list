@@ -2,6 +2,7 @@ import Boolean from "./Boolean"
 import Counter from "./Counter"
 import StateBatching from "./StateBatching"
 import PasswordField from "./PasswordManagement"
+import StudentProfile from "./Admissons"
 
 function App () {
   return (
@@ -11,6 +12,8 @@ function App () {
     <StateBatching/>
     <br />
     <PasswordField/>
+    <br />
+    <StudentProfile/>
     </>
   )
 }
