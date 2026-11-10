@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+// Managing multiple state.
 export default function StudentProfile(){
 
   const [name, setName] = useState("Caleb")
