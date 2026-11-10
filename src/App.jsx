@@ -1,6 +1,7 @@
 import Boolean from "./Boolean"
 import Counter from "./Counter"
 import StateBatching from "./StateBatching"
+import PasswordField from "./PasswordManagement"
 
 function App () {
   return (
@@ -8,6 +9,8 @@ function App () {
     <Counter/>
     <Boolean/>
     <StateBatching/>
+    <br />
+    <PasswordField/>
     </>
   )
 }
