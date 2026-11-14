@@ -7,15 +7,20 @@ export default function Admissons(){
     course: "Software Engineering."
   })
 
-  function changeAge(){
+  const changeAge = () => {
     setStudent((prevStudent)=>({
       ...prevStudent,
       age: prevStudent.age+1
     }))
   }
+
+  const greetStudent = (name) => {
+    alert(`Welcome ${name}`)
+  }
   return(
     <>
     <h2>Student Profile.</h2>
+    <p>Click this button to proceed.<button onClick={()=>{greetStudent("Caleb.")}}>Welcome.</button></p>
     <p>{student.name}</p>
     <button onClick={()=>setStudent((prevStudent)=>({...prevStudent, name:"Dennis"}))}>Change name</button>
     <p>{student.age}</p>

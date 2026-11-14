@@ -7,8 +7,9 @@ export default function StudentProfile(){
   const [age, setAge] = useState(25)
   const [isRegistered, setIsregistered] = useState(true)
 
-  function handleAge(){
+  const handleAge = () => {
     setAge(26)
+    alert("Button clicked!")
   }
 
   return(
